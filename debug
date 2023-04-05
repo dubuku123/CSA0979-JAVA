@@ -1,0 +1,34 @@
+import java.util.*;
+class age{
+public static void main(string arcs[]){
+Scanner scan=new scanner (System.in);
+System.out.println(&quot;Enter the age of person&quot;);
+int user_age=scan.next Int();
+System.out.printn(&quot;The age of person is&quot;+user_age);
+if(user_age&gt;18)
+{
+System.out.println(&quot;You are eligible to Vote&quot;);
+}
+else{
+System.out.println(&quot;You are not eligible to vote and ..for you &quot; + (18 - user_age)
++ &quot; years
+are left to be eligible&quot;);
+}
+}
+}
+Answer
+import java.util.*;
+class Age {
+ public static void main(String[] args) {
+ Scanner scan = new Scanner(System.in);
+ System.out.println("Enter the age of the person:");
+ int userAge = scan.nextInt();
+ System.out.println("The age of the person is " + userAge);
+ if (userAge >= 18) {
+ System.out.println("You are eligible to vote.");
+ } else {
+ System.out.println("You are not eligible to vote, and " + (18 - userAge)
++ " years are left to be eligible.");
+ }
+ }
+}
